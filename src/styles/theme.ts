@@ -1,6 +1,6 @@
 export const theme = {
   breakingPoints: {
-    mobile: 375,
+    mobile: 768,
     desktop: 1440,
   },
   colors: {
