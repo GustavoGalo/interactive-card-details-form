@@ -7,11 +7,15 @@ import { theme } from './styles/theme';
 import { GlobalStyles } from './styles/global';
 import reportWebVitals from './reportWebVitals';
 
+import { PageWrapper } from './components/PageWrapper';
+
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 root.render(
   <ThemeProvider theme={theme}>
     <GlobalStyles />
-    <App />
+    <PageWrapper>
+      <App />
+    </PageWrapper>
   </ThemeProvider>,
 );
 
