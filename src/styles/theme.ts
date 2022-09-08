@@ -2,6 +2,7 @@ export const theme = {
   breakingPoints: {
     mobile: 768,
     desktop: 1440,
+    smallDesktop: 1080,
   },
   colors: {
     red: 'hsl(0, 100%, 66%)',
