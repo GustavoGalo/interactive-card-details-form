@@ -7,7 +7,7 @@ const initialState = {
   expDate: new Date().toLocaleDateString('pt-br', { month: '2-digit', year: '2-digit' }),
 };
 
-export const cardSlide = createSlice({
+export const cardSlice = createSlice({
   name: 'card',
   initialState,
   reducers: {
@@ -31,6 +31,6 @@ export const {
   handleCVCDataChange,
   handleExpDateDataChange,
   handleCardNumberDataChange,
-} = cardSlide.actions;
+} = cardSlice.actions;
 
-export default cardSlide.reducer;
+export default cardSlice.reducer;
